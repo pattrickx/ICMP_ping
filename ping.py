@@ -128,6 +128,7 @@ def ping(ciclos,host, timeout=1):
     pingMin=float("+infinity")
     pingMax=0
     pingCnt=0
+    lista=[]
     dest = gethostbyname(host)
     print("Pinging " + dest + " using Python:")
     print("")
